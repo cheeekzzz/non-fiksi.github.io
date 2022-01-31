@@ -1,0 +1,161 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background: #0a2a43;
+    min-height: 1500px;
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #0a2a43), transparent;
+    z-index: 10000
+}
+section:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0a2a43;
+    z-index: 10000;
+    mix-blend-mode: color;
+}
+
+#text {
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+    z-index: 1;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+#road {
+    z-index: 2;
+}
+
+#orientasi
+{
+    font-size: 50px;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 20px;
+    color: #fff;
+   
+
+}
+.orientasi
+{
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 50;
+}
+
+.evaluasi{
+    font-size: 50px;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 20px;
+    color: #fff;
+    
+}
+.evaluasi1{
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 50;
+
+}
+.tafsiran{
+    font-size: 50px;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 20px;
+    color: #fff;
+    
+   
+}
+.tafsiran1{
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 50;
+
+}
+.rangkuman{
+    font-size: 50px;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 20px;
+    color: #fff;
+  
+   
+}
+.rangkuman1{
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 50;
+
+}
+a{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px 600px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+
+    }
+
+a:hover{
+    background: #2ecc71;
+}
+
